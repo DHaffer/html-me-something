@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #222629;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#main {
+  margin-left: 10%;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #222629;
+  color: #75a335;
+  font-size: 40px;
+  top: 0;
+  border-bottom: solid;
+}
+
+article {
+  border-bottom: ridge;
+  border-color: #75a335;
+  color: #61892f;
+}
+
+ul {
+  list-style-type: none;
+  width: 8%;
+  background-color: gray;
+  height: 55%;
+  position: fixed;
+  overflow: auto;
+  background-color: transparent;
+}
+
+li a {
+  display: block;
+  color: #61892f;
+  padding: 20px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+li a:hover {
+  background-color: #474b4f;
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 6rem;
+}
+
+img {
+  max-width: 38%;
+  margin-left: 7rem;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+footer {
+  text-align: center;
+  background: #222629;
+  color: #75a335;
+  border-top: solid;
+  margin-bottom: -3rem;
+}
+
+#footer-text {
+  font-size: 1.2rem;
+}
+
+#github {
+  font-size: 2.8rem;
+  color: #61892f;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#github:hover {
+  color: #75a335;
+}
+#oysters {
+  max-width: 42.5%;
+}
+
+#wildlife {
+  border-bottom: none;
+}
+
+#lorikeet {
+  max-width: 42.5%;
+}
